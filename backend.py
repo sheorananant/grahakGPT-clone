@@ -52,7 +52,7 @@ else:
         collection_name="consumer_protection_kb",
         persist_directory=persist_dir
     )
-    vector_store.persist()
+  
 
 # Retriever for RAG
 retriever = vector_store.as_retriever(search_kwargs={"k": 1})
