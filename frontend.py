@@ -52,6 +52,10 @@ if retrieved_docs:
             content = content.replace(kw, f"**{kw}**")
         st.markdown(f"**Doc {i}:**\n\n" + content[:500] + "...\n")
 
+with st.expander("📄 Retrieved Context"):
+    for i, doc in enumerate(retrieved_docs, start=1):
+        ...
+
 
         # -----------------------------
         # Generate answer
