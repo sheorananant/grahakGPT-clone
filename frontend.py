@@ -38,28 +38,26 @@ query = st.text_input("", "")
 
 if query:
     with st.spinner("Searching relevant documents and generating answer..."):
-        # -----------------------------
-        # Retrieve top 1 document only
-        # -----------------------------
+
+# -----------------------------
+# Retrieve top 3 documents
+# -----------------------------
 retrieved_docs = vector_store.similarity_search(query, k=3)
 
-st.subheader("📄 Retrieved Documents")
-if retrieved_docs:
-    for i, doc in enumerate(retrieved_docs, start=1):
-        content = doc.page_content
-        keywords = query.lower().split()  # simple keyword highlighting
-        for kw in keywords:
-            content = content.replace(kw, f"**{kw}**")
-        st.markdown(f"**Doc {i}:**\n\n" + content[:500] + "...\n")
-
+# Put them inside an expander so they don’t clutter the page
 with st.expander("📄 Retrieved Context"):
-    for i, doc in enumerate(retrieved_docs, start=1):
-        ...
+    if retrieved_docs:
+        for i, doc in enumerate(retrieved_docs, start=1):
+            content = doc.page_content
+            keywords = query.lower().split()  # simple keyword highlighting
+            for kw in keywords:
+                content = content.replace(kw, f"**{kw}**")
+            st.markdown(f"**Doc {i}:**\n\n" + content[:500] + "...\n")
 
 
+
+   # -----------------------------        # Generate answer
         # -----------------------------
-        # Generate answer
-        # -----------------------------
-        answer = get_answer(query)
-        st.subheader("💡 Answer")
-        st.write(answer)
+answer = get_answer(query)
+st.subheader("💡 Answer")
+st.write(answer)
