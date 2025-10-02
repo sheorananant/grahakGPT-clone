@@ -41,15 +41,17 @@ if query:
         # -----------------------------
         # Retrieve top 1 document only
         # -----------------------------
-        retrieved_docs = vector_store.similarity_search(query, k=1)
+retrieved_docs = vector_store.similarity_search(query, k=3)
 
-        st.subheader("📄 Top Retrieved Document")
-        if retrieved_docs:
-            content = retrieved_docs[0].page_content
-            keywords = query.lower().split()  # simple keyword highlighting
-            for kw in keywords:
-                content = content.replace(kw, f"**{kw}**")
-            st.markdown(content[:500] + "...")  # show first 500 chars
+st.subheader("📄 Retrieved Documents")
+if retrieved_docs:
+    for i, doc in enumerate(retrieved_docs, start=1):
+        content = doc.page_content
+        keywords = query.lower().split()  # simple keyword highlighting
+        for kw in keywords:
+            content = content.replace(kw, f"**{kw}**")
+        st.markdown(f"**Doc {i}:**\n\n" + content[:500] + "...\n")
+
 
         # -----------------------------
         # Generate answer
