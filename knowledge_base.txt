@@ -26,5 +26,88 @@ legal_data = [
     {
         "title": "Priority Cases for Vulnerable Consumers",
         "text": "The Consumer Protection Regulations, 2020, include a provision for 'Priority Cases,' which ensures that cases involving or filed by senior citizens, people with physical disabilities, widows, and those with serious illnesses are handled on a priority basis. This procedural rule is designed to expedite the resolution of disputes for vulnerable consumers."
+    },
+
+    {
+        "title": "Expanded Definition of 'Consumer'",
+        "text": "The Act defines a consumer as anyone who buys goods or hires services for personal use, including deferred payments. It explicitly includes online transactions, teleshopping, direct selling, and multi-level marketing. Those buying for resale or commercial use are excluded, except when used for earning a livelihood through self-employment."
+    },
+    {
+        "title": "Consumer Rights Recognized by Law",
+        "text": "The Act codifies six consumer rights: (1) protection from hazardous goods/services, (2) right to be informed, (3) right to choose, (4) right to be heard, (5) right to seek redressal, and (6) right to consumer education."
+    },
+    {
+        "title": "Central Consumer Protection Authority (CCPA)",
+        "text": "Established under Section 10, the CCPA is empowered to investigate violations of consumer rights, order recall of unsafe goods, impose penalties, and regulate misleading advertisements. It can act suo motu and issue safety notices for hazardous products."
+    },
+    {
+        "title": "Three-Tier Consumer Dispute Redressal System",
+        "text": "The Act establishes District Commissions (claims up to ₹1 crore), State Commissions (₹1–10 crore), and National Commission (above ₹10 crore). Appeals can be escalated from District to State to National Commission, and finally to the Supreme Court."
+    },
+    {
+        "title": "Product Liability Provisions",
+        "text": "Consumers can file product liability actions against manufacturers, sellers, or service providers for harm caused by defective products or deficient services. Harm includes property damage, personal injury, emotional distress, and loss of consortium."
+    },
+    {
+        "title": "Definition of 'Defect' and 'Deficiency'",
+        "text": "A 'defect' refers to faults in goods related to quality, quantity, potency, purity, or standard. A 'deficiency' refers to shortcomings in services, including negligence or failure to perform contractual obligations."
+    },
+    {
+        "title": "Unfair Trade Practices",
+        "text": "Includes false advertising, deceptive pricing, fake endorsements, refusal to refund, and non-issuance of bills. The Act provides detailed clauses to identify and penalize such practices."
+    },
+    {
+        "title": "Unfair Contracts",
+        "text": "Contracts that impose unreasonable terms on consumers are deemed unfair. Examples include excessive security deposits, disproportionate penalties, unilateral termination rights, and forced bundling of services."
+    },
+    {
+        "title": "E-Commerce and Digital Platforms",
+        "text": "The Act brings e-commerce entities under its purview. Online marketplaces and service providers must comply with consumer protection norms, including mandatory disclosures and grievance redressal mechanisms."
+    },
+    {
+        "title": "Consumer Protection Councils",
+        "text": "Central and State Consumer Protection Councils are advisory bodies established to promote and protect consumer rights. The Central Council is chaired by the Union Minister of Consumer Affairs; State Councils by respective State Ministers."
+    },
+    {
+        "title": "Alternative Dispute Resolution via Mediation",
+        "text": "The Act introduces mediation as a voluntary and confidential process for resolving disputes. Mediators are appointed under Section 75, and mediation centers are established at each commission level."
+    },
+    {
+        "title": "Place of Filing Complaints",
+        "text": "Consumers can file complaints at the place of residence or work, not just where the transaction occurred. This makes access to justice more convenient."
+    },
+    {
+        "title": "E-Filing and Video Hearings",
+        "text": "The Act allows consumers to file complaints electronically and attend hearings via video conferencing, improving accessibility and reducing delays."
+    },
+    {
+        "title": "Endorser and Advertiser Liability",
+        "text": "Endorsers and advertisers can be held liable for misleading claims. Penalties include fines and bans on future endorsements. A defence is available if due diligence was exercised."
+    },
+    {
+        "title": "Penalties for Adulterated and Spurious Goods",
+        "text": "Section 90 and 91 impose strict penalties for selling adulterated or spurious goods, including imprisonment and fines. These provisions aim to deter unsafe practices in food and consumer products."
+    },
+    {
+        "title": "Electronic Service Providers",
+        "text": "Defined as entities that enable sellers to advertise or sell goods online. Includes marketplaces and auction sites, which are now accountable under the Act."
+    },
+    {
+        "title": "Restrictive Trade Practices",
+        "text": "Includes manipulation of prices, hoarding, refusal to sell, and forced bundling. These practices are prohibited and subject to penalties."
+    },
+    {
+        "title": "Definition of 'Service'",
+        "text": "Covers services in banking, insurance, telecom, housing, entertainment, and more. Excludes services rendered free of charge or under a personal service contract."
+    },
+    {
+        "title": "Definition of 'Spurious Goods'",
+        "text": "Goods falsely claimed to be genuine are classified as spurious. Their manufacture or sale is punishable under the Act."
+    },
+    {
+        "title": "Jurisdiction and Renaming of Forums",
+        "text": "Consumer forums are renamed as Consumer Disputes Redressal Commissions (CDRCs). Jurisdiction is based on claim value, and commissions are empowered to enforce orders and impose penalties."
     }
+
+
 ]
