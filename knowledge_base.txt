@@ -107,7 +107,122 @@ legal_data = [
     {
         "title": "Jurisdiction and Renaming of Forums",
         "text": "Consumer forums are renamed as Consumer Disputes Redressal Commissions (CDRCs). Jurisdiction is based on claim value, and commissions are empowered to enforce orders and impose penalties."
+    },
+    {
+        "title": "Short Title and Commencement",
+        "text": "These rules are called the Legal Metrology (National Standards) Rules, 2011. They came into force on April 1, 2011."
+    },
+    {
+        "title": "Definition of 'Act'",
+        "text": "The term 'Act' refers to the Legal Metrology Act, 2009 (Act No. 1 of 2010)."
+    },
+    {
+        "title": "Definition of 'SI Units'",
+        "text": "SI Units refer to the International System of Units, divided into base units, derived units, and supplementary units. These are established by the General Conference on Weights and Measures and adopted by India."
+    },
+    {
+        "title": "Base Units of Measurement",
+        "text": "The seven base units are: Meter (length), Kilogram (mass), Second (time), Ampere (electric current), Kelvin (temperature), Candela (luminous intensity), and Mole (amount of substance). Each is defined using atomic or physical constants."
+    },
+    {
+        "title": "Supplementary Units",
+        "text": "Supplementary units include radian and steradian, used for measuring plane and solid angles. These are defined in Schedule I."
+    },
+    {
+        "title": "Derived Units",
+        "text": "Derived units are algebraic combinations of base and supplementary units. Examples include Newton (force), Joule (energy), and Pascal (pressure). These are listed in Schedule II."
+    },
+    {
+        "title": "Decimal Multiples and Submultiples",
+        "text": "Units may be expressed using SI prefixes such as kilo (10³), centi (10⁻²), and milli (10⁻³). These are standardized in Schedule III."
+    },
+    {
+        "title": "Permitted Non-SI Units",
+        "text": "Units like minute, hour, degree, liter, and tonne are permitted for use alongside SI units under conditions specified in Schedule IV."
+    },
+    {
+        "title": "Special Units",
+        "text": "Units used in specific scientific fields, such as electronvolt and astronomical units, are listed in Schedule V. These must be expressible in terms of SI units."
+    },
+    {
+        "title": "Temporarily Approved Units",
+        "text": "Units listed in Schedule VI are temporarily approved for use. The Central Government must review their continued use at least once every ten years."
+    },
+    {
+        "title": "Units to be Phased Out",
+        "text": "Units listed in Schedules VII and VIII, such as centimetre-gram-second (CGS) units, must be phased out. They are prohibited for general use and education, except in scientific research."
+    },
+    {
+        "title": "Use of Non-SI Units in Research",
+        "text": "Units from Schedules VII and VIII may only be used in scientific and industrial research and must be accompanied by their corresponding symbols."
+    },
+    {
+        "title": "Physical Constants",
+        "text": "Schedule IX lists physical constants and their numerical values. These constants are to be used for research and standardization purposes."
+    },
+    {
+        "title": "Symbols and Prefixes",
+        "text": "Schedule X defines symbols and prefixes for units and constants. These must be used consistently to represent quantities in scientific and legal contexts."
+    },
+    {
+        "title": "Metric System Requirement",
+        "text": "All weights and measures must be based on the metric system, including recommendations from the General Conference on Weights and Measures and the International Organization of Legal Metrology."
+    },
+    {
+        "title": "Interpretation of 'Weight'",
+        "text": "Wherever the term 'weight' is used symbolically for a substance, it shall be interpreted as referring to its mass."
+    },
+    {
+        "title": "Definition of 'Derived Unit'",
+        "text": "A derived unit is one expressed algebraically using base and supplementary units. Examples include square meter, cubic meter, and meter per second."
+    },
+    {
+        "title": "Definition of 'Coefficient'",
+        "text": "A coefficient refers to dimensionless parameters or ratios used to express physical properties, such as alcohol strength, sugar percentage, or hardness."
+    },
+    {
+        "title": "Definition of 'International Prototype of Kilogram'",
+        "text": "Refers to the platinum-iridium cylinder stored in France, adopted in 1889, and used as the standard for defining the kilogram."
+    },
+    {
+        "title": "Definition of 'International Bureau of Weights and Measures'",
+        "text": "Refers to the bureau established under the Convention du Mètre, located in Sèvres, France, responsible for maintaining international standards."
+    },
+    {
+        "title": "Definition of 'International Organization of Legal Metrology'",
+        "text": "Refers to the organization established in 1955 to harmonize legal metrology standards globally. India adopted it in 1956."
+    },
+    {
+        "title": "Definition of 'SI Prefix'",
+        "text": "SI prefixes are symbols used to denote decimal multiples and submultiples of units, such as kilo (k), mega (M), milli (m), and micro (μ)."
+    },
+    {
+        "title": "Definition of 'Special Unit'",
+        "text": "Special units are non-SI units used in specific scientific domains. Their values must be expressible in SI terms, though they may depend on experimental constants."
+    },
+    {
+        "title": "Definition of 'Temporary Unit'",
+        "text": "Temporary units are non-SI units approved for limited use. Their continued use must be reviewed periodically by the Central Government."
+    },
+    {
+        "title": "Definition of 'Symbol'",
+        "text": "A symbol is a letter or group of letters used to represent a unit or group of units in a simplified and standardized form."
+    },
+    {
+        "title": "Review of Temporarily Approved Units",
+        "text": "The Central Government may review temporarily approved units earlier than the ten-year interval if recommended by international bodies."
+    },
+    {
+        "title": "Prohibition on Obsolete Units",
+        "text": "Units listed in Schedules VII and VIII must not be used for education or general purposes. Their use is restricted to scientific research only."
+    },
+    {
+        "title": "Use of SI-Compatible Units",
+        "text": "Units not part of SI but compatible with it may be used under specific conditions. These include certain time and angle units listed in Schedule IV."
+    },
+    {
+        "title": "Definition of 'Physical Coefficient'",
+        "text": "Physical coefficients describe properties of materials or constants, such as gravitational constant, speed of light, Avogadro number, and Faraday constant."
     }
-
 
 ]
