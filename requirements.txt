@@ -9,3 +9,7 @@ sentence-transformers
 chromadb
 pysqlite3-binary
 accelerate
+streamlit
+openai
+faiss-cpu
+tiktoken
